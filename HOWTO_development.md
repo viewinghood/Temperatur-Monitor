@@ -47,7 +47,7 @@ temp_monitor/
 | Datei | Rolle |
 |-------|--------|
 | `tm_pyqt_plot_app.py` | **HDMI TempMonitor** — Desktop-Fenster, PyQtGraph OpenGL |
-| `tm_pyqt_touch_app.py` | **Touch TempMonitor** — 800×448 borderless, Seitenleiste |
+| `tm_pyqt_touch_app.py` | **Touch TempMonitor** — Gen‑1 DSI 800×480; Fenster 800×448 unter lxpanel |
 
 ### Gemeinsame Logik
 

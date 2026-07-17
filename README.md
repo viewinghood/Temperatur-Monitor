@@ -11,11 +11,11 @@ Two production UIs share one measurement backend:
 | App | Display | Entry point |
 |-----|---------|-------------|
 | **HDMI TempMonitor** | Eizo HDMI · 1280×1024 | `tm_pyqt_plot_app.py` |
-| **Touch TempMonitor** | Official 7″ DSI touch · 800×448 | `tm_pyqt_touch_app.py` |
+| **Touch TempMonitor** | Official 7″ DSI touch · **800×480** (Gen 1) | `tm_pyqt_touch_app.py` |
 
 <p align="center">
   <img src="docs/screenshots/tm_touch_live.png" alt="Touch TempMonitor on 7 inch DSI" width="720"><br>
-  <em>Touch TempMonitor — 7″ DSI, sidebar + live plot</em>
+  <em>Touch TempMonitor — official 7″ DSI Gen&nbsp;1 (800×480), app below lxpanel</em>
 </p>
 
 <p align="center">
