@@ -1,0 +1,19 @@
+# TempMonitor — Python-Abhängigkeiten
+
+## Raspberry Pi (verbindlich: apt, nicht pip)
+
+Auf dem Pi die Systempakete nutzen (siehe README / `install_bullseye_gui.sh`):
+
+- python3-pyqt5 (+ qtsvg, qtopengl)
+- python3-pyqtgraph
+- python3-numpy
+- python3-spidev
+
+Optional Legacy: python3-kivy
+
+## Entwickler-PC (optional, Syntax / Docs)
+
+PyQt5>=5.15
+pyqtgraph>=0.12
+numpy>=1.19
+Pillow>=9.0

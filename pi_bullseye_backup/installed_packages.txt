@@ -1,0 +1,17 @@
+﻿ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA+WO1zLHQHMf5nRveK9m94K17bKLx1D4lL8pFlokErN ritchie@lenovo-temp-monitor
+liblightdm-gobject-1-0:armhf			install
+lightdm						install
+lightdm-gtk-greeter				install
+lxde-common					install
+lxde-core					install
+openbox-lxde-session				install
+pcmanfm						install
+pyqt5-dev-tools					install
+python3-kivy					install
+python3-pyqt5					install
+python3-pyqt5.qtopengl				install
+python3-pyqt5.qtsvg				install
+python3-pyqt5.sip				install
+python3-pyqtgraph				install
+python3-spidev					install
+raspberrypi-ui-mods				install

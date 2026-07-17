@@ -1,0 +1,6 @@
+# Copy lines into ~/.kivy/config.ini — append only if [input] missing mtdev.
+# Do NOT paste the [input] header into an existing config (causes duplicate section).
+
+mouse = mouse
+mtdev_%(name)s = probesysfs,provider=mtdev
+hid_%(name)s = probesysfs,provider=hidinput

@@ -1,0 +1,29 @@
+# TempMonitor — LEGACY HDMI only. NO vc4/KMS. NO DSI/lcd settings.
+# Eizo: try native 1280x1024 first; if black screen use hdmi_safe=1
+
+disable_overscan=0
+hdmi_force_hotplug=1
+
+# Eizo 1280x1024 @ 60Hz (DMT mode 35) — same as Stretch HDMI-DMT
+hdmi_group=2
+hdmi_mode=35
+
+# If still no picture, comment above two lines and uncomment:
+#hdmi_safe=1
+
+# Hardware
+dtparam=i2c_arm=on
+dtparam=spi=on
+dtparam=audio=on
+enable_uart=1
+dtoverlay=pi3-miniuart-bt
+
+# Legacy firmware framebuffer — NO vc4 overlay
+start_x=0
+gpu_mem=128
+camera_auto_detect=0
+display_auto_detect=0
+
+# NO ignore_lcd / lcd_rotate — caused blink on Bullseye without DSI cable
+
+[all]

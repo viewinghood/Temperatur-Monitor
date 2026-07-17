@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HDMI TempMonitor
+Comment=PyQt5 + OpenGL — Eizo HDMI
+Exec=/usr/bin/python3 /home/pi/py/TempMonitor/dev/launch_tm_hdmi.py
+Path=/home/pi/py/TempMonitor/dev
+Icon=/home/pi/py/TempMonitor/dev/icons/tempmonitor-48.png
+Terminal=false
+Categories=Utility;Science;
+StartupNotify=false
+StartupWMClass=TempMonitor

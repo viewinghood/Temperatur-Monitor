@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=7" Touch-Display
+Comment=HDMI aus — 7"-Touch aktivieren
+Exec=/home/pi/py/TempMonitor/dev/start_tm_switch_touch.sh
+Path=/home/pi/py/TempMonitor/dev
+Icon=video-display
+Terminal=false
+Categories=Settings;
+StartupNotify=false

@@ -1,0 +1,20 @@
+# TempMonitor — Stretch-style HDMI (auto EDID, Eizo 1280x1024)
+# NO forced hdmi_group/mode — let monitor negotiate like Stretch
+
+disable_overscan=0
+
+dtparam=i2c_arm=on
+dtparam=spi=on
+dtparam=audio=on
+enable_uart=1
+dtoverlay=pi3-miniuart-bt
+
+ignore_lcd=1
+lcd_rotate=2
+
+#start_x=0  # disabled for desktop GUI
+gpu_mem=128
+camera_auto_detect=0
+display_auto_detect=0
+
+[all]

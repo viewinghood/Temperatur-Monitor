@@ -1,0 +1,30 @@
+# TempMonitor — LEGACY display (like Stretch). NO vc4/KMS driver.
+# Pi 3 Bullseye: firmware HDMI framebuffer, no LightDM dependency.
+
+disable_overscan=0
+
+# HDMI Eizo monitor
+hdmi_force_hotplug=1
+hdmi_drive=2
+
+# Hardware interfaces
+dtparam=i2c_arm=on
+dtparam=spi=on
+dtparam=audio=on
+enable_uart=1
+dtoverlay=pi3-miniuart-bt
+
+# Display: DSI off, HDMI on (same as Stretch)
+ignore_lcd=1
+lcd_rotate=2
+
+# Legacy GPU — NO KMS / NO vc4 overlay (this is the Stretch way)
+# Do NOT enable: dtoverlay=vc4-kms-v3d or vc4-fkms-v3d
+start_x=0
+gpu_mem=128
+
+# No auto-detect probes at boot
+camera_auto_detect=0
+display_auto_detect=0
+
+[all]

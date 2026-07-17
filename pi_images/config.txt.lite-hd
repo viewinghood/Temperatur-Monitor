@@ -1,0 +1,20 @@
+# TempMonitor — Bullseye LITE. Eizo 1280x1024 (verified 2026-07-06). NO KMS.
+disable_overscan=0
+hdmi_force_hotplug=1
+hdmi_drive=2
+hdmi_group=2
+hdmi_mode=35
+#hdmi_safe=1
+
+dtparam=i2c_arm=on
+dtparam=spi=on
+dtparam=audio=on
+enable_uart=1
+dtoverlay=pi3-miniuart-bt
+
+start_x=0
+gpu_mem=128
+camera_auto_detect=0
+display_auto_detect=0
+
+[all]

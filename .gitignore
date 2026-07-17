@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Logs / runtime flags
+*.log
+READY_*.txt
+*.lock
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets & local SSH material (never publish)
+**/authorized_keys
+**/.ssh/
+*.pem
+*.key
+.env
+.env.*
+
+# Archives / large dumps
+*.tar.gz
+*.tgz
+*.img
+*.img.xz
+*.zip
+
+# Local-only development clutter (keep on disk, not for public GitHub)
+_archive/backups/
+_archive/history/
+pi_stretch_backup/
+
+# Cursor / agent local
+.cursor/
