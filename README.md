@@ -19,7 +19,7 @@ Two production UIs share one measurement backend:
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/pi_screenshot_tempmonitor_ok.png" alt="HDMI TempMonitor on Raspberry Pi" width="720"><br>
+  <img src="docs/screenshots/tm_hdmi_appetizer.png" alt="HDMI TempMonitor on Raspberry Pi" width="720"><br>
   <em>HDMI TempMonitor — desktop UI</em>
 </p>
 
