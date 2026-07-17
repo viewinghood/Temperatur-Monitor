@@ -14,7 +14,13 @@ Two production UIs share one measurement backend:
 | **Touch TempMonitor** | Official 7″ DSI touch · 800×448 | `tm_pyqt_touch_app.py` |
 
 <p align="center">
-  <img src="docs/screenshots/pi_screenshot_tempmonitor_ok.png" alt="TempMonitor on Raspberry Pi" width="720">
+  <img src="docs/screenshots/tm_touch_appetizer.png" alt="Touch TempMonitor on 7 inch DSI" width="720"><br>
+  <em>Touch TempMonitor — 7″ DSI, sidebar + live plot</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/pi_screenshot_tempmonitor_ok.png" alt="HDMI TempMonitor on Raspberry Pi" width="720"><br>
+  <em>HDMI TempMonitor — desktop UI</em>
 </p>
 
 ## ✨ Features
